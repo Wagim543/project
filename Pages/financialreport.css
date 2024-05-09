@@ -20,20 +20,3 @@ li a {
 li a:hover {
   background-color: #111;
 }
-.container-fluid {
-  background-color: #050a30;
-  & h1,
-  h5 {
-    color: #8dd8e8;
-    text-align: center;
-  }
-  & img {
-    width: 100px;
-    margin-left: 180px;
-    margin-bottom: 35px;
-    margin-top: 105px;
-  }
-  .col-md-4 {
-    border: 1px solid #dee2e6;
-  }
-}

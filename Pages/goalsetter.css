@@ -22,18 +22,21 @@ li a:hover {
 }
 .container-fluid {
   background-color: #050a30;
-  & h1,
-  h5 {
+  & h1 {
     color: #8dd8e8;
     text-align: center;
   }
-  & img {
-    width: 100px;
-    margin-left: 180px;
-    margin-bottom: 35px;
-    margin-top: 105px;
+  & label {
+    color: #8dd8e8;
   }
-  .col-md-4 {
+  & .col-md-4 {
+    text-align: center;
+  }
+  .border {
     border: 1px solid #dee2e6;
+    color: white;
+    text-align: left;
+    margin-top: 30px;
+    height: 45px;
   }
 }
